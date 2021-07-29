@@ -13,6 +13,7 @@ router.get("/notes", async (req, res) => {
 // Post method for a note
 router.post("/notes", ({ body }, res) => {
   db.create(body);
+  console.log(body);
   return res.status(200).json(body);
 });
 
