@@ -16,10 +16,5 @@ router.post("/notes", ({ body }, res) => {
 });
 
 // delete method for a note
-// router.delete("/notes/:id", async (req, res) => {
-//   const { id } = req.params;
-//   const notes = await this.delete(id);
-//   return res.status(200).json(notes);
-// });
 
 export default router;
