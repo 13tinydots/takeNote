@@ -6,7 +6,7 @@
   "main": "app/index.js",
   "type": "module",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app/index.js"
   },
   "devDependencies": {
     "eslint": "^7.31.0",
